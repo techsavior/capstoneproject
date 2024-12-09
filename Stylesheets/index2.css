@@ -1,0 +1,73 @@
+div.main2{
+	margin-left: 35px;
+	margin-right: 35px;
+	padding-top: 60px;
+	background-color: #FAF9F9;
+	box-shadow: -1px 4px 10px 5px; 
+}
+div.categories ul{
+	justify-content: center;
+}
+div.topicscategories ul li{
+	display: flex;
+	justify-content: center;
+}
+div.button1{
+	text-align: center;
+}
+div.button1 button{
+	background-color: #FAF9F9;
+	color: black;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 25px;
+	align-items: center;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  touch-action: manipulation;
+  text-align: center;
+}
+div.button1 a{
+	padding: 0;
+}
+div.button1 button:hover {
+  border-color: #447BC5;
+  color: #447BC5;
+}
+div.box1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	text-align: center;
+}
+@media (min-width: 768px){
+  div.categories ul li img{
+  	width: 100%;
+  }
+}
+h1.buttonheading{
+	text-align: center;
+	color: black;
+	font-size: 25px;
+}
+div.heading2 h1{
+	color: black;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+div.topicsintro p{
+	color: black;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-size: 20px;
+}
+div.categories ul li img{
+  opacity: 1;
+  display: block;
+  height: 20%;
+  width: 20%; 
+  transition: .5s ease;
+  backface-visibility: hidden;
+}

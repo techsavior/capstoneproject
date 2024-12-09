@@ -1,0 +1,65 @@
+div.main4{
+	padding-top: 60px;
+	margin-left: 35px;
+	margin-right: 35px;
+	background-color: #FAF9F9;
+	box-shadow: -1px 4px 10px 5px; 
+}
+div.heading4 h1{
+	text-align: center;
+	color: black;
+}
+div.contactustextentry form{
+	text-align: center;
+}
+button.query-submit{
+	background-color: #FAF9F9;
+	color: black;
+	padding: 10px 10px;
+	cursor: pointer;
+	font-size: 20px;
+	align-items: center;
+  	border: 2px solid #000;
+  	box-sizing: border-box;
+  	cursor: pointer;
+  	touch-action: manipulation;
+  	font-weight: 600px;
+  	text-align: center;
+}
+button.query-submit:hover{
+	border-color: #447BC5;
+  	color: #447BC5;
+}
+div.login-container a{
+	text-align: center;
+}
+hr.sectionline{
+	border-top: 1px solid black;
+	margin: auto;
+	width: 65%;
+}
+div.form{
+	text-align: center;
+}
+div.extra2 p{
+	color: black;
+	text-align: center;
+	padding: 10px;
+}
+div.extra2 a{
+	color: black;
+}
+@media (max-width: 768px){
+	div.test-button{
+		flex-direction: column;
+	}
+	button.query-submit{
+		width: 42%;
+	}
+	div.heading4{
+		font-size: 10px;
+	}
+	div.form iframe{
+		width: 100%;
+	}
+}

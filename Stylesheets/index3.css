@@ -1,0 +1,27 @@
+div.main3{
+	padding-top: 60px;
+	margin-left: 35px;
+	margin-right: 35px;
+	background-color: #FAF9F9;
+	box-shadow: -1px 4px 10px 5px; 
+}
+div.heading3 h1{
+	color: black;
+	text-align: center;
+}
+div.aboutustext p{
+	color: black;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-size: 25px;
+}
+div.profileimg{
+	text-align: center;
+}
+a.link2{
+	color: black;
+}
+hr.line2{
+	width: 65%;
+	margin: auto;
+}
