@@ -43,8 +43,8 @@ div.box1{
 	text-align: center;
 }
 @media (min-width: 768px){
-  div.categories ul li img{
-	width: 100%;
+  div.box1 li img{
+	display: none;
   }
 }
 h1.buttonheading{
@@ -66,8 +66,8 @@ div.topicsintro p{
 div.box1 li img{
   opacity: 1;
   display: block;
-  height: 20%;
-  width: 20%; 
+  height: 35%;
+  width: 35%; 
   transition: .5s ease;
   backface-visibility: hidden;
 }
