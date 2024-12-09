@@ -44,7 +44,6 @@ div.box1{
 }
 @media (min-width: 768px){
   div.box1 li img{
-	display: none;
   }
 }
 h1.buttonheading{
